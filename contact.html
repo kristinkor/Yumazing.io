@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>YumazingRestaurant</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <style>
+            .arrow_link {
+                color: white;
+                font-size: 2.5em;
+            }
+            h2 {
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="index.html"><img src="9ef08c8e-fe02-4868-a68f-1b5e44c37e1c_200x200.png" alt=""></a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="welcome_block order_bg">
+        <h1>Afraid of Viruses? Order online!</h1>
+        <p style="margin-bottom: 20px">Contact us or leave your order in the form below.</p>
+        <a href="#form" class="arrow_link">&#10597;</a>
+    </div>
+
+    <form id="form">
+        <h2>Contact us</h2>
+        <p>20 Hudson Yards,</p>
+        <p> New York, NY 10001</p>
+        <p><a href="tel:123-456-7890">123-456-7890</a></p>
+        <p><a href="#">Facebook</a></p>
+        <p><a href="#">Instagram</a></p>
+        <p style="margin-bottom: 20px;"> <a href="#" >Twitter</a></p>
+        <hr>
+        <h2 style="margin-top: 20px;">or place your order here</h2>
+        <p style="text-align: center; font-size: 12px; margin-bottom: 20px;">Required fields are followed by
+            <strong><abbr title="required">*</abbr></strong>.
+        </p>
+        <section>
+            <p>Contact information</p>
+            <p>
+                <label for="name">
+                    <span>Name: </span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="text" id="name" name="username" placeholder="Name">
+            </p>
+            <p>
+                <label for="mail">
+                    <span>E-mail: </span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="email" id="mail" name="usermail" placeholder="E-mail">
+            </p>
+            <p>
+                <label for=phone>
+                    <span>Phone: </span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="tel" id="phone" name="phone" placeholder="Phone">
+            </p>
+            <p>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Type your order here..."></textarea>
+            </p>
+        </section>
+        <section>
+            <p>Payment information</p>
+            <ul class="select_payment">
+                <li>
+                    <label for="title_1">
+                        <input type="radio" id="title_1" name="title" value="K" >
+                        Card
+                    </label>
+                </li>
+                <li>
+                    <label for="title_2">
+                        <input type="radio" id="title_2" name="title" value="Q">
+                        Cash
+                    </label>
+                </li>
+            </ul>
+            <p>
+                <label for="card">
+                    <span>Card type:</span>
+                </label>
+                <select id="card" name="usercard">
+                    <option value="visa">Visa</option>
+                    <option value="mc">Mastercard</option>
+                    <option value="amex">American Express</option>
+                </select>
+            </p>
+            <p>
+                <label for="number">
+                    <span>Card number:</span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="tel" id="number" name="cardnumber" placeholder="Card Number">
+            </p>
+            <p>
+                <label for="date">
+                    <span>Expiration date:</span>
+                    <strong><abbr title="required">*</abbr></strong>
+
+                </label>
+                <input type="date" id="date" name="expiration">
+            </p>
+        </section>
+        <p> <button type="submit">Place your order</button> </p>
+    </form>
+    <footer>
+        <div class="box">
+            <h3>Open hours</h3>
+            <p>MONDAY - FRIDAY 6:00am - 3:30pm</p>
+            <p>SATURDAY 6:30am - 1:30pm</p>
+            <p>SUNDAY Closed</p>
+        </div>
+        <div class="box">
+            <h3>Address</h3>
+            <p> 20 Hudson Yards,</p>
+            <p> New York, NY 10001</p>
+            <p><a href="tel:123-456-7890">123-456-7890</a></p>
+        </div>
+        <div class="box">
+            <h3>Follow</h3>
+            <p> us on Social Networks</p>
+            <p><a href="#">Facebook</a></p>
+            <p><a href="#">Instagram</a></p>
+            <p> <a href="#">Twitter</a></p>
+        </div>
+        <div class="creator">
+            © 2020 Created by Kristina Korzhenevskaya
+        </div>
+    </footer>
+</body>
+</html>

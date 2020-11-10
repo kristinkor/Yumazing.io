@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: black;
+    color: #fa3737;
+
+}
+
+.menu a {
+    font-family: 'Xanh Mono', monospace;
+    padding: 0 20px;
+}
+
+footer a {
+    font-family: "Open Sans";
+}
+
+.menu a, footer a {
+    font-size: 18px;
+    transition: .3s ease-in;
+}
+
+ul.menu {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.menu a:hover, footer a:hover {
+    color: #d10404;
+    text-decoration: underline;
+}
+
+.welcome_block {
+    color: white;
+    width: 100%;
+
+    text-align: center;
+    background-image: url("photo-1587574293340-e0011c4e8ecf.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.welcome_block.main_bg {
+    background-image: url("photo-1587574293340-e0011c4e8ecf.jpeg");
+}
+
+.welcome_block.menu_bg {
+    background-image: url("camille-chen-9sbcQxUp2xY-unsplash (1).jpg");
+}
+
+.welcome_block.order_bg {
+    background-image: url("jonathan-ybema-r8A-FTlLY3c-unsplash (1).jpg");
+}
+
+h1 {
+    font-size: 3em;
+    padding: 150px 0 40px;
+    font-weight: bold;
+    text-shadow: 1px 4px 4px #000000;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+    background: #efefef;
+}
+
+footer .box {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    padding-bottom: 40px;
+}
+
+footer .box p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    color: dimgrey;
+
+}
+footer .box a {
+    font-size: 1em;
+    padding: 5px 0;
+}
+
+.creator {
+    width: 100%;
+    font-size: 0.7em;
+}
+
+h3 {
+    font-family: 'Xanh Mono', monospace;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+    color: #d10404;
+}
+
+/*MENU*/
+
+table.main_table {
+    margin: 40px auto;
+    border-color: #fce8e8;
+}
+
+table.main_table  tr td, table.main_table  tr th {
+    padding: 15px;
+}
+table.nested_table  tr td, table.nested_table  tr th {
+    text-align: left;
+    padding: 0;
+    vertical-align: top;
+}
+
+table.main_table  tr th {
+    font-family: 'Xanh Mono', monospace;
+}
+
+table.main_table  tr td {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*ORDER FORM*/
+form {
+    margin: 40px auto;
+    width: 50%;
+    padding: 40px;
+    border: 1px solid #fbf9f9;
+    text-align: center;
+    background: #fbf9f9;
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    color: #fa3737;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    text-align: center;
+}
+
+label {
+    /* Uniform size & alignment */
+    position: relative;
+    display: block;
+
+}
+label span {
+    display: inline-block;
+    text-align: right;
+    font-size: 0.8em;
+    padding-top: 4px;
+}
+
+.select_payment li {
+    display: inline-block;
+}
+
+fieldset {
+    width: 250px;
+    box-sizing: border-box;
+    margin-left: 136px;
+    border: 1px solid #999;
+}
+
+input,
+textarea, select {
+    font: 1em 'Open Sans', sans-serif;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 4px;
+    border: 1px solid #999;
+    margin-bottom: 20px;
+    color: #999999;
+
+}
+input[type=checkbox], input[type=radio] {
+    width: auto;
+    border: none
+}
+
+input:focus,
+textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+}
+
+
+label em {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* Provide space to type some text */
+    height: 5em;
+}
+
+
+button {
+    padding: 7px 15px;
+    width: 250px;
+    background: #fa3737;
+    color: #fbf9f9;
+    transition: ease-in .3s;
+
+}
+button:hover {
+    background: #d10404;
+    color: #fce8e8;
+}

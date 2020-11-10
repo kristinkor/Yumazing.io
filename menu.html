@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>YumazingRestaurant</title>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index.css" >
         <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
         <style>
@@ -29,7 +29,7 @@
             <p>We added a few yumazing specials.</p>
         </div>
         <h2>Breakfast</h2>
-        <table bgcolor="#fbf9f9" border="1" cellspacing="0" width="80%" align="center" cellpadding="0" class="main_table">
+        <table bgcolor="#fbf9f9" border="1" cellspacing="0" width="80%" align="center" cellpadding="0" rowspan="5" class="main_table">
             <tr style="color: #d10404">
                 <th>Title</th>
                 <th>Description</th>
@@ -110,10 +110,12 @@
                         </tr>
                         <tr>
                             <td width="50%">Plain Chicken Quesadilla with flour tortilla, chicken, and shredded cheese.</td>
-                            <td width="25%">240 gr.</td>
+                            <td width="25%" rowspan="2">240 gr.</td>
                             <td width="25%">940</td>
                         </tr>
-
+                        <tr>
+                            <td>*Can contain dairy products and nuts</td>
+                        </tr>
                     </table>
                 </td>
                 <td>15.50$</td>
@@ -148,14 +150,16 @@
                 <td>
                     <table class="nested_table" cellspacing="15" cellpadding="5">
                         <tr>
-                            <th width="50%">Ingredients</th>
-                            <th width="25%">Grams</th>
+                            <th width="50%" colspan="2">Ingredients</th>
                             <th width="25%">Calories per portion</th>
                         </tr>
                         <tr>
                             <td width="50%">Eggplant Stuffed With Riccotta Cheese, Mozzarella Cheese & Tomatosauce</td>
-                            <td width="25%">170 gr.</td>
+                            <td width="25%" rowspan="2">One portion contains 3 pieces.</td>
                             <td width="25%">600</td>
+                        </tr>
+                        <tr>
+                            <td>*I just demonstrate how collspan and rowspan works</td>
                         </tr>
 
                     </table>
@@ -183,9 +187,9 @@
             <div class="box">
                 <h3>Follow</h3>
                 <p> us on Social Networks</p>
-                <p><a href="#">Facebook</a></p>
-                <p><a href="#">Instagram</a></p>
-                <p> <a href="#">Twitter</a></p>
+                <p><a href="https://www.facebook.com/">Facebook</a></p>
+                <p><a href="https://www.instagram.com/">Instagram</a></p>
+                <p> <a href="https://twitter.com/">Twitter</a></p>
             </div>
             <div class="creator">
                 © 2020 Created by Kristina Korzhenevskaya
